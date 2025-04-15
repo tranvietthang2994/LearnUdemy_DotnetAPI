@@ -45,5 +45,59 @@ namespace WebApplication1.Controllers
 
 			return Ok(walksDto);
 		}
+
+		// GET Walk by Id
+		// GET: /api/walk/{id}
+		[HttpGet]
+		[Route("{id:Guid}")]
+		public async Task<IActionResult> GetById([FromRoute] Guid id)
+		{
+			var walkDomainModel = await walkRepository.GetByIdAsync(id);
+			
+			if (walkDomainModel == null)
+			{
+				return NotFound();
+			}
+
+			var walkDto = mapper.Map<WalkDto>(walkDomainModel);
+
+			return Ok(walkDto);	
+		}
+
+		// UPDATE Walk by Id
+		// PUT: /api/Walk
+		[HttpPut]
+		[Route("{id:Guid}")]
+		public async Task<IActionResult> Update([FromRoute] Guid id, UpdateWalkRequestDto updateWalkRequestDto)
+		{
+			//Map Dto to Domain model
+			var walkDomainModel = mapper.Map<Walk>(updateWalkRequestDto);
+
+			walkDomainModel = await walkRepository.UpdateAsync(id, walkDomainModel);
+
+			if (walkDomainModel == null)
+			{
+				return NotFound();
+			}
+
+			// Map Domain Model to DTO
+			return Ok(mapper.Map<WalkDto>(walkDomainModel));
+		}
+
+		// DELETE Walk by Id
+		// DELETE: /api/Walk/{id}
+		[HttpDelete]
+		[Route("{id:Guid}")]
+		public async Task<IActionResult> Delete([FromRoute] Guid id)
+		{
+			var walkDomainModel = await walkRepository.DeleteAsync(id);
+
+			if (walkDomainModel == null)
+			{
+				return NotFound();
+			}
+
+			return Ok(mapper.Map<WalkDto>(walkDomainModel));
+		}
 	}
 }
