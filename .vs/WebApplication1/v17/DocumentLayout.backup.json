@@ -3,28 +3,20 @@
   "WorkspaceRootPath": "D:\\CodeDotnetAPI\\WebApplication1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{36F0F7F7-0E6C-4701-A22C-ACDA9A372CE1}|WebApplication1\\WebApplication1.csproj|d:\\codedotnetapi\\webapplication1\\webapplication1\\repositories\\sqlwalkrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36F0F7F7-0E6C-4701-A22C-ACDA9A372CE1}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\repositories\\sqlwalkrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36F0F7F7-0E6C-4701-A22C-ACDA9A372CE1}|WebApplication1\\WebApplication1.csproj|d:\\codedotnetapi\\webapplication1\\webapplication1\\controllers\\walkcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36F0F7F7-0E6C-4701-A22C-ACDA9A372CE1}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\walkcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36F0F7F7-0E6C-4701-A22C-ACDA9A372CE1}|WebApplication1\\WebApplication1.csproj|d:\\codedotnetapi\\webapplication1\\webapplication1\\models\\dto\\walkdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36F0F7F7-0E6C-4701-A22C-ACDA9A372CE1}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\dto\\walkdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{36F0F7F7-0E6C-4701-A22C-ACDA9A372CE1}|WebApplication1\\WebApplication1.csproj|d:\\codedotnetapi\\webapplication1\\webapplication1\\controllers\\regioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{36F0F7F7-0E6C-4701-A22C-ACDA9A372CE1}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\regioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36F0F7F7-0E6C-4701-A22C-ACDA9A372CE1}|WebApplication1\\WebApplication1.csproj|d:\\codedotnetapi\\webapplication1\\webapplication1\\repositories\\sqlregionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36F0F7F7-0E6C-4701-A22C-ACDA9A372CE1}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\repositories\\sqlregionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36F0F7F7-0E6C-4701-A22C-ACDA9A372CE1}|WebApplication1\\WebApplication1.csproj|d:\\codedotnetapi\\webapplication1\\webapplication1\\repositories\\iregionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36F0F7F7-0E6C-4701-A22C-ACDA9A372CE1}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\repositories\\iregionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36F0F7F7-0E6C-4701-A22C-ACDA9A372CE1}|WebApplication1\\WebApplication1.csproj|d:\\codedotnetapi\\webapplication1\\webapplication1\\data\\winwalksdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36F0F7F7-0E6C-4701-A22C-ACDA9A372CE1}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\data\\winwalksdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36F0F7F7-0E6C-4701-A22C-ACDA9A372CE1}|WebApplication1\\WebApplication1.csproj|d:\\codedotnetapi\\webapplication1\\webapplication1\\models\\dto\\updateregionrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36F0F7F7-0E6C-4701-A22C-ACDA9A372CE1}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\dto\\updateregionrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36F0F7F7-0E6C-4701-A22C-ACDA9A372CE1}|WebApplication1\\WebApplication1.csproj|d:\\codedotnetapi\\webapplication1\\webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36F0F7F7-0E6C-4701-A22C-ACDA9A372CE1}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,83 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "RegionController.cs",
-              "DocumentMoniker": "D:\\CodeDotnetAPI\\WebApplication1\\WebApplication1\\Controllers\\RegionController.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\RegionController.cs",
-              "ToolTip": "D:\\CodeDotnetAPI\\WebApplication1\\WebApplication1\\Controllers\\RegionController.cs",
-              "RelativeToolTip": "WebApplication1\\Controllers\\RegionController.cs",
-              "ViewState": "AgIAAIsAAAAAAAAAAAAowJwAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T07:16:40.418Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "IRegionRepository.cs",
-              "DocumentMoniker": "D:\\CodeDotnetAPI\\WebApplication1\\WebApplication1\\Repositories\\IRegionRepository.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Repositories\\IRegionRepository.cs",
-              "ToolTip": "D:\\CodeDotnetAPI\\WebApplication1\\WebApplication1\\Repositories\\IRegionRepository.cs",
-              "RelativeToolTip": "WebApplication1\\Repositories\\IRegionRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Title": "WalkDto.cs",
+              "DocumentMoniker": "D:\\CodeDotnetAPI\\WebApplication1\\WebApplication1\\Models\\DTO\\WalkDto.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\DTO\\WalkDto.cs",
+              "ToolTip": "D:\\CodeDotnetAPI\\WebApplication1\\WebApplication1\\Models\\DTO\\WalkDto.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\DTO\\WalkDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T08:56:41.089Z",
+              "WhenOpened": "2025-04-15T09:12:53.25Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "SQLRegionRepository.cs",
-              "DocumentMoniker": "D:\\CodeDotnetAPI\\WebApplication1\\WebApplication1\\Repositories\\SQLRegionRepository.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Repositories\\SQLRegionRepository.cs",
-              "ToolTip": "D:\\CodeDotnetAPI\\WebApplication1\\WebApplication1\\Repositories\\SQLRegionRepository.cs",
-              "RelativeToolTip": "WebApplication1\\Repositories\\SQLRegionRepository.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAowDEAAAADAAAAAAAAAA==",
+              "Title": "WalkController.cs",
+              "DocumentMoniker": "D:\\CodeDotnetAPI\\WebApplication1\\WebApplication1\\Controllers\\WalkController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\WalkController.cs",
+              "ToolTip": "D:\\CodeDotnetAPI\\WebApplication1\\WebApplication1\\Controllers\\WalkController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\WalkController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T08:59:24.093Z",
+              "WhenOpened": "2025-04-15T07:58:16.289Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UpdateRegionRequestDto.cs",
-              "DocumentMoniker": "D:\\CodeDotnetAPI\\WebApplication1\\WebApplication1\\Models\\DTO\\UpdateRegionRequestDto.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Models\\DTO\\UpdateRegionRequestDto.cs",
-              "ToolTip": "D:\\CodeDotnetAPI\\WebApplication1\\WebApplication1\\Models\\DTO\\UpdateRegionRequestDto.cs",
-              "RelativeToolTip": "WebApplication1\\Models\\DTO\\UpdateRegionRequestDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "SQLWalkRepository.cs",
+              "DocumentMoniker": "D:\\CodeDotnetAPI\\WebApplication1\\WebApplication1\\Repositories\\SQLWalkRepository.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Repositories\\SQLWalkRepository.cs",
+              "ToolTip": "D:\\CodeDotnetAPI\\WebApplication1\\WebApplication1\\Repositories\\SQLWalkRepository.cs",
+              "RelativeToolTip": "WebApplication1\\Repositories\\SQLWalkRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T07:17:49.357Z",
+              "WhenOpened": "2025-04-15T08:52:42.731Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\CodeDotnetAPI\\WebApplication1\\WebApplication1\\Program.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Program.cs",
-              "ToolTip": "D:\\CodeDotnetAPI\\WebApplication1\\WebApplication1\\Program.cs",
-              "RelativeToolTip": "WebApplication1\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T03:04:12.586Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "WinWalksDbContext.cs",
-              "DocumentMoniker": "D:\\CodeDotnetAPI\\WebApplication1\\WebApplication1\\Data\\WinWalksDbContext.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Data\\WinWalksDbContext.cs",
-              "ToolTip": "D:\\CodeDotnetAPI\\WebApplication1\\WebApplication1\\Data\\WinWalksDbContext.cs",
-              "RelativeToolTip": "WebApplication1\\Data\\WinWalksDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Title": "RegionController.cs",
+              "DocumentMoniker": "D:\\CodeDotnetAPI\\WebApplication1\\WebApplication1\\Controllers\\RegionController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\RegionController.cs",
+              "ToolTip": "D:\\CodeDotnetAPI\\WebApplication1\\WebApplication1\\Controllers\\RegionController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\RegionController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T16:24:29.192Z",
+              "WhenOpened": "2025-04-15T08:46:57.9Z",
               "EditorCaption": ""
             }
           ]
