@@ -37,19 +37,6 @@ namespace WebApplication1.Controllers
 			//Get Data from Database - Domain models
 			var regionsDomain = await regionRepository.GetAllAsync();
 
-			//Map Domain Models to DTOs
-			//var regionsDto = new List<RegionDto>();
-			//foreach (var regionDomain in regionsDomain)
-			//{
-			//	regionsDto.Add(new RegionDto()
-			//	{
-			//		Id = regionDomain.Id,
-			//		Code = regionDomain.Code,
-			//		Name = regionDomain.Name,
-			//		RegionImgUrl = regionDomain.RegionImgUrl
-			//	});
-			//}
-
 			// Map Domain Nodels to DTOs
 			var regionsDto = mapper.Map<List<RegionDto>>(regionsDomain);
 

@@ -35,9 +35,9 @@ namespace WebApplication1.Controllers
 		}
 
 		// GET ALL Walks
-		// GET: /api/walk
+		// GET: /api/walk?filterOn=Name&filterQuery=Track
 		[HttpGet]
-		public async Task<IActionResult> GetAll()
+		public async Task<IActionResult> GetAll([FromQuery] string? filterOn, [FromQuery] string? filterQuery)
 		{
 			var walksDomainModel = await walkRepository.GetAllAsync();
 
