@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -14,6 +15,7 @@ namespace WebApplication1.Controllers
 	// https://localhost:9999/api/...
 	[Route("api/[controller]")]
 	[ApiController]
+	[Authorize]
 	public class RegionController : ControllerBase
 	{
 		private readonly WinWalksDbContext dbContext;
