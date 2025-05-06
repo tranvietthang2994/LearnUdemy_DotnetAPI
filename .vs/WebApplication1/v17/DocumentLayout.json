@@ -3,16 +3,40 @@
   "WorkspaceRootPath": "D:\\CodeDotnetAPI\\WebApplication1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{36F0F7F7-0E6C-4701-A22C-ACDA9A372CE1}|WebApplication1\\WebApplication1.csproj|d:\\codedotnetapi\\webapplication1\\webapplication1\\controllers\\regioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36F0F7F7-0E6C-4701-A22C-ACDA9A372CE1}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\regioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{36F0F7F7-0E6C-4701-A22C-ACDA9A372CE1}|WebApplication1\\WebApplication1.csproj|d:\\codedotnetapi\\webapplication1\\webapplication1\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36F0F7F7-0E6C-4701-A22C-ACDA9A372CE1}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36F0F7F7-0E6C-4701-A22C-ACDA9A372CE1}|WebApplication1\\WebApplication1.csproj|d:\\codedotnetapi\\webapplication1\\webapplication1\\models\\dto\\registerrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36F0F7F7-0E6C-4701-A22C-ACDA9A372CE1}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\dto\\registerrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36F0F7F7-0E6C-4701-A22C-ACDA9A372CE1}|WebApplication1\\WebApplication1.csproj|d:\\codedotnetapi\\webapplication1\\webapplication1\\models\\dto\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36F0F7F7-0E6C-4701-A22C-ACDA9A372CE1}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\dto\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{36F0F7F7-0E6C-4701-A22C-ACDA9A372CE1}|WebApplication1\\WebApplication1.csproj|d:\\codedotnetapi\\webapplication1\\webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{36F0F7F7-0E6C-4701-A22C-ACDA9A372CE1}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{36F0F7F7-0E6C-4701-A22C-ACDA9A372CE1}|WebApplication1\\WebApplication1.csproj|d:\\codedotnetapi\\webapplication1\\webapplication1\\data\\winwalksauthdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36F0F7F7-0E6C-4701-A22C-ACDA9A372CE1}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\data\\winwalksauthdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{36F0F7F7-0E6C-4701-A22C-ACDA9A372CE1}|WebApplication1\\WebApplication1.csproj|d:\\codedotnetapi\\webapplication1\\webapplication1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{36F0F7F7-0E6C-4701-A22C-ACDA9A372CE1}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36F0F7F7-0E6C-4701-A22C-ACDA9A372CE1}|WebApplication1\\WebApplication1.csproj|d:\\codedotnetapi\\webapplication1\\webapplication1\\migrations\\winwalksauthdb\\20250506083816_creating auth database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36F0F7F7-0E6C-4701-A22C-ACDA9A372CE1}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\migrations\\winwalksauthdb\\20250506083816_creating auth database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36F0F7F7-0E6C-4701-A22C-ACDA9A372CE1}|WebApplication1\\WebApplication1.csproj|d:\\codedotnetapi\\webapplication1\\webapplication1\\controllers\\regioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36F0F7F7-0E6C-4701-A22C-ACDA9A372CE1}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\regioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36F0F7F7-0E6C-4701-A22C-ACDA9A372CE1}|WebApplication1\\WebApplication1.csproj|d:\\codedotnetapi\\webapplication1\\webapplication1\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36F0F7F7-0E6C-4701-A22C-ACDA9A372CE1}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,44 +46,124 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginRequestDto.cs",
+              "DocumentMoniker": "D:\\CodeDotnetAPI\\WebApplication1\\WebApplication1\\Models\\DTO\\LoginRequestDto.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\DTO\\LoginRequestDto.cs",
+              "ToolTip": "D:\\CodeDotnetAPI\\WebApplication1\\WebApplication1\\Models\\DTO\\LoginRequestDto.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\DTO\\LoginRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T10:14:41.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RegisterRequestDto.cs",
+              "DocumentMoniker": "D:\\CodeDotnetAPI\\WebApplication1\\WebApplication1\\Models\\DTO\\RegisterRequestDto.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\DTO\\RegisterRequestDto.cs",
+              "ToolTip": "D:\\CodeDotnetAPI\\WebApplication1\\WebApplication1\\Models\\DTO\\RegisterRequestDto.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\DTO\\RegisterRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T09:40:56.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\CodeDotnetAPI\\WebApplication1\\WebApplication1\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\CodeDotnetAPI\\WebApplication1\\WebApplication1\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAAAEkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T09:39:23.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\CodeDotnetAPI\\WebApplication1\\WebApplication1\\Program.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Program.cs",
+              "ToolTip": "D:\\CodeDotnetAPI\\WebApplication1\\WebApplication1\\Program.cs",
+              "RelativeToolTip": "WebApplication1\\Program.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAuwC4AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T08:10:37.066Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\CodeDotnetAPI\\WebApplication1\\WebApplication1\\appsettings.json",
+              "RelativeDocumentMoniker": "WebApplication1\\appsettings.json",
+              "ToolTip": "D:\\CodeDotnetAPI\\WebApplication1\\WebApplication1\\appsettings.json",
+              "RelativeToolTip": "WebApplication1\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-17T08:08:13.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WinWalksAuthDbContext.cs",
+              "DocumentMoniker": "D:\\CodeDotnetAPI\\WebApplication1\\WebApplication1\\Data\\WinWalksAuthDbContext.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Data\\WinWalksAuthDbContext.cs",
+              "ToolTip": "D:\\CodeDotnetAPI\\WebApplication1\\WebApplication1\\Data\\WinWalksAuthDbContext.cs",
+              "RelativeToolTip": "WebApplication1\\Data\\WinWalksAuthDbContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T08:00:48.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20250506083816_Creating Auth Database.cs",
+              "DocumentMoniker": "D:\\CodeDotnetAPI\\WebApplication1\\WebApplication1\\Migrations\\WinWalksAuthDb\\20250506083816_Creating Auth Database.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Migrations\\WinWalksAuthDb\\20250506083816_Creating Auth Database.cs",
+              "ToolTip": "D:\\CodeDotnetAPI\\WebApplication1\\WebApplication1\\Migrations\\WinWalksAuthDb\\20250506083816_Creating Auth Database.cs",
+              "RelativeToolTip": "WebApplication1\\Migrations\\WinWalksAuthDb\\20250506083816_Creating Auth Database.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T08:38:16.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "RegionController.cs",
               "DocumentMoniker": "D:\\CodeDotnetAPI\\WebApplication1\\WebApplication1\\Controllers\\RegionController.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Controllers\\RegionController.cs",
               "ToolTip": "D:\\CodeDotnetAPI\\WebApplication1\\WebApplication1\\Controllers\\RegionController.cs",
               "RelativeToolTip": "WebApplication1\\Controllers\\RegionController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAALAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-17T08:38:59.589Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\CodeDotnetAPI\\WebApplication1\\WebApplication1\\Program.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Program.cs",
-              "ToolTip": "D:\\CodeDotnetAPI\\WebApplication1\\WebApplication1\\Program.cs",
-              "RelativeToolTip": "WebApplication1\\Program.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAgwDEAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "D:\\CodeDotnetAPI\\WebApplication1\\WebApplication1\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\StudentController.cs",
+              "ToolTip": "D:\\CodeDotnetAPI\\WebApplication1\\WebApplication1\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\StudentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T08:10:37.066Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\CodeDotnetAPI\\WebApplication1\\WebApplication1\\appsettings.json",
-              "RelativeDocumentMoniker": "WebApplication1\\appsettings.json",
-              "ToolTip": "D:\\CodeDotnetAPI\\WebApplication1\\WebApplication1\\appsettings.json",
-              "RelativeToolTip": "WebApplication1\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-17T08:08:13.877Z"
+              "WhenOpened": "2025-05-06T07:47:19.43Z",
+              "EditorCaption": ""
             }
           ]
         }

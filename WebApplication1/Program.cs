@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
@@ -18,10 +19,19 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<WinWalksDbContext>(options =>
 options.UseSqlServer(builder.Configuration.GetConnectionString("WinWalksConnectionString")));
 
+builder.Services.AddDbContext<WinWalksAuthDbContext>(options =>	
+options.UseSqlServer(builder.Configuration.GetConnectionString("WinWalksAuthConnectionString")));
+
 builder.Services.AddScoped<IRegionRepository,SQLRegionRepository>();
 builder.Services.AddScoped<IWalkRepository, SQLWalkRepository>();
 
 builder.Services.AddAutoMapper(typeof(AutoMapperProfiles));
+
+builder.Services.AddIdentityCore<IdentityUser>()
+	.AddRoles<IdentityRole>()
+	.AddTokenProvider<DataProtectorTokenProvider<IdentityUser>>("WinWalks")
+	.AddEntityFrameworkStores<WinWalksAuthDbContext>()
+	.AddDefaultTokenProviders();
 
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
 	.AddJwtBearer(options =>
@@ -38,6 +48,17 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
 				Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]))
 		};
 	});
+
+builder.Services.Configure<IdentityOptions>(options =>
+{
+	options.Password.RequireDigit = false;
+	options.Password.RequiredLength = 6;
+	options.Password.RequireLowercase = false;
+	options.Password.RequireUppercase = false;
+	options.Password.RequireNonAlphanumeric = false;
+	options.Password.RequiredUniqueChars = 1;
+	options.User.RequireUniqueEmail = true;
+});
 
 var app = builder.Build();
 
