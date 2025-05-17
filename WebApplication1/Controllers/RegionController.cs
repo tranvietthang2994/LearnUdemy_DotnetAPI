@@ -15,7 +15,7 @@ namespace WebApplication1.Controllers
 	// https://localhost:9999/api/...
 	[Route("api/[controller]")]
 	[ApiController]
-	[Authorize]
+	
 	public class RegionController : ControllerBase
 	{
 		private readonly WinWalksDbContext dbContext;
@@ -34,6 +34,7 @@ namespace WebApplication1.Controllers
 		// GET ALL REGION
 		// GET: https://localhost:9999/api/region
         [HttpGet]
+		[Authorize(Roles ="Reader")]
 		public async Task<IActionResult> GetAll()
 		{
 			//Get Data from Database - Domain models
@@ -51,6 +52,7 @@ namespace WebApplication1.Controllers
 		// GET: https://localhost:9999/api/region/{id}
 		[HttpGet]
 		[Route("{id:Guid}")]
+		[Authorize(Roles ="Reader")]
 		public async Task<IActionResult> GetById([FromRoute] Guid id)
 		{
 			//Chỉ dùng được khi tìm bằng khoá chính
@@ -72,6 +74,7 @@ namespace WebApplication1.Controllers
 		// POST: https://localhost:9999/api/region
 		[HttpPost]
 		[ValidateModel]
+		[Authorize(Roles = "Writer")]
 		public async Task<IActionResult> Create([FromBody] AddRegionRequestDto addRegionRequestDto)
 		{
 			// Map or Convert DTO to Domain Model
@@ -93,6 +96,7 @@ namespace WebApplication1.Controllers
 		// PUT: https://localhost:9999/api/region/{id}
 		[HttpPut]
 		[Route("{id:Guid}")]
+		[Authorize(Roles = "Writer")]
 		public async Task<IActionResult> Update([FromRoute] Guid id, [FromBody] UpdateRegionRequestDto updateRegionRequestDto)
 		{
 			// Map DTO to Domain model
@@ -117,6 +121,7 @@ namespace WebApplication1.Controllers
 		// DELETE: https://localhost:9999/api/region/{id}
 		[HttpDelete]
 		[Route("{id:Guid}")]
+		[Authorize(Roles = "Writer")]
 		public async Task<IActionResult> Delete([FromRoute] Guid id) { 
 			var regionDomainModel = await regionRepository.DeleteAsync(id);
 

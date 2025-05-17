@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using WebApplication1.Models.DTO;
+using WebApplication1.Repositories;
 
 namespace WebApplication1.Controllers
 {
@@ -10,10 +11,12 @@ namespace WebApplication1.Controllers
 	public class AuthController : ControllerBase
 	{
 		private UserManager<IdentityUser> userManager;
+		private readonly ITokenRepository tokenRepository;
 
-		public AuthController(UserManager<IdentityUser> userManager)
+		public AuthController(UserManager<IdentityUser> userManager, ITokenRepository tokenRepository)
         {
             this.userManager = userManager;
+			this.tokenRepository = tokenRepository;
 		}
 
         // POST: /api/Auth/Register
@@ -61,9 +64,19 @@ namespace WebApplication1.Controllers
 				
 				if (checkPassResult)
 				{
-					// Create token
+					// Get roles of this user
+					var roles = await userManager.GetRolesAsync(user);
 
-					return Ok();
+					// Create token
+					var jwtToken = tokenRepository.CreatJWTToken(user, roles.ToList());
+
+					// Tạo response dto để lưu trữ các thông tin cần thiết (email, name, ...)
+					var response = new LoginResponseDto
+					{
+						JwtToken = jwtToken
+					}; 
+
+					return Ok(response);
 				}
 			}
 
