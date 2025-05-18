@@ -7,20 +7,24 @@
       "RelativeMoniker": "D:0:0:{36F0F7F7-0E6C-4701-A22C-ACDA9A372CE1}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36F0F7F7-0E6C-4701-A22C-ACDA9A372CE1}|WebApplication1\\WebApplication1.csproj|d:\\codedotnetapi\\webapplication1\\webapplication1\\controllers\\regioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36F0F7F7-0E6C-4701-A22C-ACDA9A372CE1}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\regioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{36F0F7F7-0E6C-4701-A22C-ACDA9A372CE1}|WebApplication1\\WebApplication1.csproj|d:\\codedotnetapi\\webapplication1\\webapplication1\\repositories\\localimagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36F0F7F7-0E6C-4701-A22C-ACDA9A372CE1}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\repositories\\localimagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36F0F7F7-0E6C-4701-A22C-ACDA9A372CE1}|WebApplication1\\WebApplication1.csproj|d:\\codedotnetapi\\webapplication1\\webapplication1\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36F0F7F7-0E6C-4701-A22C-ACDA9A372CE1}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{36F0F7F7-0E6C-4701-A22C-ACDA9A372CE1}|WebApplication1\\WebApplication1.csproj|d:\\codedotnetapi\\webapplication1\\webapplication1\\controllers\\imagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36F0F7F7-0E6C-4701-A22C-ACDA9A372CE1}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\imagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36F0F7F7-0E6C-4701-A22C-ACDA9A372CE1}|WebApplication1\\WebApplication1.csproj|d:\\codedotnetapi\\webapplication1\\webapplication1\\models\\dto\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36F0F7F7-0E6C-4701-A22C-ACDA9A372CE1}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\dto\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{36F0F7F7-0E6C-4701-A22C-ACDA9A372CE1}|WebApplication1\\WebApplication1.csproj|d:\\codedotnetapi\\webapplication1\\webapplication1\\repositories\\iimagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36F0F7F7-0E6C-4701-A22C-ACDA9A372CE1}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\repositories\\iimagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36F0F7F7-0E6C-4701-A22C-ACDA9A372CE1}|WebApplication1\\WebApplication1.csproj|d:\\codedotnetapi\\webapplication1\\webapplication1\\repositories\\tokenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36F0F7F7-0E6C-4701-A22C-ACDA9A372CE1}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\repositories\\tokenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{36F0F7F7-0E6C-4701-A22C-ACDA9A372CE1}|WebApplication1\\WebApplication1.csproj|d:\\codedotnetapi\\webapplication1\\webapplication1\\models\\domain\\image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36F0F7F7-0E6C-4701-A22C-ACDA9A372CE1}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\domain\\image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36F0F7F7-0E6C-4701-A22C-ACDA9A372CE1}|WebApplication1\\WebApplication1.csproj|d:\\codedotnetapi\\webapplication1\\webapplication1\\models\\dto\\imageuploadrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36F0F7F7-0E6C-4701-A22C-ACDA9A372CE1}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\dto\\imageuploadrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,8 +34,73 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LocalImageRepository.cs",
+              "DocumentMoniker": "D:\\CodeDotnetAPI\\WebApplication1\\WebApplication1\\Repositories\\LocalImageRepository.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Repositories\\LocalImageRepository.cs",
+              "ToolTip": "D:\\CodeDotnetAPI\\WebApplication1\\WebApplication1\\Repositories\\LocalImageRepository.cs",
+              "RelativeToolTip": "WebApplication1\\Repositories\\LocalImageRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T11:09:14.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IImageRepository.cs",
+              "DocumentMoniker": "D:\\CodeDotnetAPI\\WebApplication1\\WebApplication1\\Repositories\\IImageRepository.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Repositories\\IImageRepository.cs",
+              "ToolTip": "D:\\CodeDotnetAPI\\WebApplication1\\WebApplication1\\Repositories\\IImageRepository.cs",
+              "RelativeToolTip": "WebApplication1\\Repositories\\IImageRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T11:07:41.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ImageUploadRequestDto.cs",
+              "DocumentMoniker": "D:\\CodeDotnetAPI\\WebApplication1\\WebApplication1\\Models\\DTO\\ImageUploadRequestDto.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\DTO\\ImageUploadRequestDto.cs",
+              "ToolTip": "D:\\CodeDotnetAPI\\WebApplication1\\WebApplication1\\Models\\DTO\\ImageUploadRequestDto.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\DTO\\ImageUploadRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T10:56:02.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ImagesController.cs",
+              "DocumentMoniker": "D:\\CodeDotnetAPI\\WebApplication1\\WebApplication1\\Controllers\\ImagesController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\ImagesController.cs",
+              "ToolTip": "D:\\CodeDotnetAPI\\WebApplication1\\WebApplication1\\Controllers\\ImagesController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\ImagesController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwCkAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T12:05:24.178Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Image.cs",
+              "DocumentMoniker": "D:\\CodeDotnetAPI\\WebApplication1\\WebApplication1\\Models\\Domain\\Image.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\Domain\\Image.cs",
+              "ToolTip": "D:\\CodeDotnetAPI\\WebApplication1\\WebApplication1\\Models\\Domain\\Image.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\Domain\\Image.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T11:42:36.618Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -40,61 +109,9 @@
               "RelativeDocumentMoniker": "WebApplication1\\Program.cs",
               "ToolTip": "D:\\CodeDotnetAPI\\WebApplication1\\WebApplication1\\Program.cs*",
               "RelativeToolTip": "WebApplication1\\Program.cs*",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAmwBIAAABIAAAAAAAAAA==",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAAAG8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-17T09:41:25.926Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RegionController.cs",
-              "DocumentMoniker": "D:\\CodeDotnetAPI\\WebApplication1\\WebApplication1\\Controllers\\RegionController.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\RegionController.cs",
-              "ToolTip": "D:\\CodeDotnetAPI\\WebApplication1\\WebApplication1\\Controllers\\RegionController.cs",
-              "RelativeToolTip": "WebApplication1\\Controllers\\RegionController.cs",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAkwIkAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T09:19:57.42Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "LoginResponseDto.cs",
-              "DocumentMoniker": "D:\\CodeDotnetAPI\\WebApplication1\\WebApplication1\\Models\\DTO\\LoginResponseDto.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Models\\DTO\\LoginResponseDto.cs",
-              "ToolTip": "D:\\CodeDotnetAPI\\WebApplication1\\WebApplication1\\Models\\DTO\\LoginResponseDto.cs",
-              "RelativeToolTip": "WebApplication1\\Models\\DTO\\LoginResponseDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T09:04:38.3Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "D:\\CodeDotnetAPI\\WebApplication1\\WebApplication1\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\AuthController.cs",
-              "ToolTip": "D:\\CodeDotnetAPI\\WebApplication1\\WebApplication1\\Controllers\\AuthController.cs*",
-              "RelativeToolTip": "WebApplication1\\Controllers\\AuthController.cs*",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwFYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T07:31:22.815Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "TokenRepository.cs",
-              "DocumentMoniker": "D:\\CodeDotnetAPI\\WebApplication1\\WebApplication1\\Repositories\\TokenRepository.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Repositories\\TokenRepository.cs",
-              "ToolTip": "D:\\CodeDotnetAPI\\WebApplication1\\WebApplication1\\Repositories\\TokenRepository.cs",
-              "RelativeToolTip": "WebApplication1\\Repositories\\TokenRepository.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwCMAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T13:37:39.146Z",
               "EditorCaption": ""
             }
           ]
