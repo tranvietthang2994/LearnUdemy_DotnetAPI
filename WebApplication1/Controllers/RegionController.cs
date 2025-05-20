@@ -21,30 +21,46 @@ namespace WebApplication1.Controllers
 		private readonly WinWalksDbContext dbContext;
 		private readonly IRegionRepository regionRepository;
 		private readonly IMapper mapper;
+		private readonly ILogger<RegionController> logger;
 
 		public RegionController(WinWalksDbContext _dbContext, IRegionRepository regionRepository,
-			IMapper mapper)
+			IMapper mapper,
+			ILogger<RegionController> logger)
         {
 			this.dbContext = _dbContext;
 			this.regionRepository = regionRepository;
 			this.mapper = mapper;
+			this.logger = logger;
 		}
 
 		//-------------------------------------------------------------------------------------------------------------------
 		// GET ALL REGION
 		// GET: https://localhost:9999/api/region
         [HttpGet]
-		[Authorize(Roles ="Reader")]
+		//[Authorize(Roles ="Reader")]
 		public async Task<IActionResult> GetAll()
 		{
-			//Get Data from Database - Domain models
-			var regionsDomain = await regionRepository.GetAllAsync();
+			try
+			{
+				//throw new Exception("This is a virtual exception");
 
-			// Map Domain Nodels to DTOs
-			var regionsDto = mapper.Map<List<RegionDto>>(regionsDomain);
+				//Get Data from Database - Domain models
+				var regionsDomain = await regionRepository.GetAllAsync();
 
-			//Return DTOs
-			return Ok(regionsDto);
+				// Map Domain Nodels to DTOs
+				var regionsDto = mapper.Map<List<RegionDto>>(regionsDomain);
+
+				logger.LogInformation("GetAll action method was invoked");
+				logger.LogWarning("This is a warning");
+
+				//Return DTOs		
+				return Ok(regionsDto);
+			}
+			catch (Exception e)
+			{
+				logger.LogError(e, e.Message);
+				throw;
+			}
 		}
 
 		//-------------------------------------------------------------------------------------------------------------------
@@ -68,6 +84,29 @@ namespace WebApplication1.Controllers
 
 			return Ok(mapper.Map<RegionDto>(regionDomain));
 		}
+
+		//-------------------------------------------------------------------------------------------------------------------
+		// GET SINGLE REGION (Get region by id)
+		// GET: https://localhost:9999/api/region/{id}
+		[HttpGet]
+		[Route("{code}")]
+		[Authorize(Roles = "Reader")]
+		public async Task<IActionResult> GetById2([FromRoute] string code)
+		{
+			//Chỉ dùng được khi tìm bằng khoá chính
+			//var region = dbContext.Regions.Find(id);
+
+			//Get Data from Database - Domain models
+			var regionDomain = await regionRepository.GetByIdAsync(Guid.NewGuid());
+
+			if (regionDomain == null)
+			{
+				return NotFound();
+			}
+
+			return Ok(mapper.Map<RegionDto>(regionDomain));
+		}
+
 
 		//-------------------------------------------------------------------------------------------------------------------
 		// Create new region

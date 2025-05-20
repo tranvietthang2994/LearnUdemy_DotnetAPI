@@ -8,10 +8,22 @@ using WebApplication1.Mappings;
 using WebApplication1.Repositories;
 using Microsoft.OpenApi.Models;
 using Microsoft.Extensions.FileProviders;
+using Serilog;
+using WebApplication1.Middlewares;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+// Add services to the container
+
+var logger = new LoggerConfiguration()
+	.WriteTo.Console()
+	.WriteTo.File("Logs/WinWalks_Log.txt", rollingInterval: RollingInterval.Minute)
+	.MinimumLevel.Warning()
+	.CreateLogger();
+
+builder.Logging.ClearProviders();
+builder.Logging.AddSerilog(logger);
+
 builder.Services.AddControllers();
 builder.Services.AddHttpContextAccessor(); // use in uploading image
 
@@ -107,6 +119,8 @@ if (app.Environment.IsDevelopment())
 	app.UseSwagger();
 	app.UseSwaggerUI();
 }
+
+app.UseMiddleware<ExceptionHandlerMiddleware>();
 
 app.UseHttpsRedirection();
 

@@ -85,6 +85,22 @@
   },
   {
     "ContainingType": "WebApplication1.Controllers.RegionController",
+    "Method": "GetById2",
+    "RelativePath": "api/Region/{code}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "code",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApplication1.Controllers.RegionController",
     "Method": "GetById",
     "RelativePath": "api/Region/{id}",
     "HttpMethod": "GET",

@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System.Net;
 using WebApplication1.Models.Domain;
 using WebApplication1.Models.DTO;
 using WebApplication1.Repositories;
@@ -40,11 +41,13 @@ namespace WebApplication1.Controllers
 		public async Task<IActionResult> GetAll([FromQuery] string? filterOn, [FromQuery] string? filterQuery,
 			[FromQuery] string? sortBy, [FromQuery] bool? isAscending)
 		{
-			var walksDomainModel = await walkRepository.GetAllAsync(filterOn, filterQuery, sortBy, isAscending ?? true);
+				var walksDomainModel = await walkRepository.GetAllAsync(filterOn, filterQuery, sortBy, isAscending ?? true);
+
+				// Create an exception
+				throw new Exception("This is a custom exception");
 
 			var walksDto = mapper.Map<List<WalkDto>>(walksDomainModel);
-
-			return Ok(walksDto);
+				return Ok(walksDto);
 		}
 
 		// GET Walk by Id

@@ -3,28 +3,20 @@
   "WorkspaceRootPath": "D:\\CodeDotnetAPI\\WebApplication1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{36F0F7F7-0E6C-4701-A22C-ACDA9A372CE1}|WebApplication1\\WebApplication1.csproj|d:\\codedotnetapi\\webapplication1\\webapplication1\\controllers\\walkcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36F0F7F7-0E6C-4701-A22C-ACDA9A372CE1}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\walkcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{36F0F7F7-0E6C-4701-A22C-ACDA9A372CE1}|WebApplication1\\WebApplication1.csproj|d:\\codedotnetapi\\webapplication1\\webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{36F0F7F7-0E6C-4701-A22C-ACDA9A372CE1}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36F0F7F7-0E6C-4701-A22C-ACDA9A372CE1}|WebApplication1\\WebApplication1.csproj|d:\\codedotnetapi\\webapplication1\\webapplication1\\repositories\\localimagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36F0F7F7-0E6C-4701-A22C-ACDA9A372CE1}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\repositories\\localimagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{36F0F7F7-0E6C-4701-A22C-ACDA9A372CE1}|WebApplication1\\WebApplication1.csproj|d:\\codedotnetapi\\webapplication1\\webapplication1\\middlewares\\exceptionhandlermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36F0F7F7-0E6C-4701-A22C-ACDA9A372CE1}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\middlewares\\exceptionhandlermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36F0F7F7-0E6C-4701-A22C-ACDA9A372CE1}|WebApplication1\\WebApplication1.csproj|d:\\codedotnetapi\\webapplication1\\webapplication1\\controllers\\imagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36F0F7F7-0E6C-4701-A22C-ACDA9A372CE1}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\imagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36F0F7F7-0E6C-4701-A22C-ACDA9A372CE1}|WebApplication1\\WebApplication1.csproj|d:\\codedotnetapi\\webapplication1\\webapplication1\\repositories\\iimagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36F0F7F7-0E6C-4701-A22C-ACDA9A372CE1}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\repositories\\iimagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36F0F7F7-0E6C-4701-A22C-ACDA9A372CE1}|WebApplication1\\WebApplication1.csproj|d:\\codedotnetapi\\webapplication1\\webapplication1\\models\\domain\\image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36F0F7F7-0E6C-4701-A22C-ACDA9A372CE1}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\domain\\image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36F0F7F7-0E6C-4701-A22C-ACDA9A372CE1}|WebApplication1\\WebApplication1.csproj|d:\\codedotnetapi\\webapplication1\\webapplication1\\models\\dto\\imageuploadrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36F0F7F7-0E6C-4701-A22C-ACDA9A372CE1}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\dto\\imageuploadrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{36F0F7F7-0E6C-4701-A22C-ACDA9A372CE1}|WebApplication1\\WebApplication1.csproj|d:\\codedotnetapi\\webapplication1\\webapplication1\\webapplication1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{36F0F7F7-0E6C-4701-A22C-ACDA9A372CE1}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\webapplication1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,82 +26,55 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "LocalImageRepository.cs",
-              "DocumentMoniker": "D:\\CodeDotnetAPI\\WebApplication1\\WebApplication1\\Repositories\\LocalImageRepository.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Repositories\\LocalImageRepository.cs",
-              "ToolTip": "D:\\CodeDotnetAPI\\WebApplication1\\WebApplication1\\Repositories\\LocalImageRepository.cs",
-              "RelativeToolTip": "WebApplication1\\Repositories\\LocalImageRepository.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAACAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "ExceptionHandlerMiddleware.cs",
+              "DocumentMoniker": "D:\\CodeDotnetAPI\\WebApplication1\\WebApplication1\\Middlewares\\ExceptionHandlerMiddleware.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Middlewares\\ExceptionHandlerMiddleware.cs",
+              "ToolTip": "D:\\CodeDotnetAPI\\WebApplication1\\WebApplication1\\Middlewares\\ExceptionHandlerMiddleware.cs",
+              "RelativeToolTip": "WebApplication1\\Middlewares\\ExceptionHandlerMiddleware.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACcAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T11:09:14.418Z",
+              "WhenOpened": "2025-05-20T07:23:27.386Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "IImageRepository.cs",
-              "DocumentMoniker": "D:\\CodeDotnetAPI\\WebApplication1\\WebApplication1\\Repositories\\IImageRepository.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Repositories\\IImageRepository.cs",
-              "ToolTip": "D:\\CodeDotnetAPI\\WebApplication1\\WebApplication1\\Repositories\\IImageRepository.cs",
-              "RelativeToolTip": "WebApplication1\\Repositories\\IImageRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T11:07:41.146Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ImageUploadRequestDto.cs",
-              "DocumentMoniker": "D:\\CodeDotnetAPI\\WebApplication1\\WebApplication1\\Models\\DTO\\ImageUploadRequestDto.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Models\\DTO\\ImageUploadRequestDto.cs",
-              "ToolTip": "D:\\CodeDotnetAPI\\WebApplication1\\WebApplication1\\Models\\DTO\\ImageUploadRequestDto.cs",
-              "RelativeToolTip": "WebApplication1\\Models\\DTO\\ImageUploadRequestDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T10:56:02.499Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ImagesController.cs",
-              "DocumentMoniker": "D:\\CodeDotnetAPI\\WebApplication1\\WebApplication1\\Controllers\\ImagesController.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\ImagesController.cs",
-              "ToolTip": "D:\\CodeDotnetAPI\\WebApplication1\\WebApplication1\\Controllers\\ImagesController.cs",
-              "RelativeToolTip": "WebApplication1\\Controllers\\ImagesController.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwCkAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T12:05:24.178Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Image.cs",
-              "DocumentMoniker": "D:\\CodeDotnetAPI\\WebApplication1\\WebApplication1\\Models\\Domain\\Image.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Models\\Domain\\Image.cs",
-              "ToolTip": "D:\\CodeDotnetAPI\\WebApplication1\\WebApplication1\\Models\\Domain\\Image.cs",
-              "RelativeToolTip": "WebApplication1\\Models\\Domain\\Image.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T11:42:36.618Z",
-              "EditorCaption": ""
+              "Title": "WebApplication1.csproj",
+              "DocumentMoniker": "D:\\CodeDotnetAPI\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+              "RelativeDocumentMoniker": "WebApplication1\\WebApplication1.csproj",
+              "ToolTip": "D:\\CodeDotnetAPI\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+              "RelativeToolTip": "WebApplication1\\WebApplication1.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-20T07:22:26.285Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "WalkController.cs",
+              "DocumentMoniker": "D:\\CodeDotnetAPI\\WebApplication1\\WebApplication1\\Controllers\\WalkController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\WalkController.cs",
+              "ToolTip": "D:\\CodeDotnetAPI\\WebApplication1\\WebApplication1\\Controllers\\WalkController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\WalkController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBAAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T07:11:23.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\CodeDotnetAPI\\WebApplication1\\WebApplication1\\Program.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Program.cs",
               "ToolTip": "D:\\CodeDotnetAPI\\WebApplication1\\WebApplication1\\Program.cs",
               "RelativeToolTip": "WebApplication1\\Program.cs",
-              "ViewState": "AgIAAGQAAAAAAAAAAAAAAG8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAAAHoAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-17T09:41:25.926Z",
               "EditorCaption": ""

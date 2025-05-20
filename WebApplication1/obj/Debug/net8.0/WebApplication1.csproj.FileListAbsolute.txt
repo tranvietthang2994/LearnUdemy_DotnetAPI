@@ -175,3 +175,16 @@ D:\CodeDotnetAPI\WebApplication1\WebApplication1\bin\Debug\net8.0\Microsoft.AspN
 D:\CodeDotnetAPI\WebApplication1\WebApplication1\bin\Debug\net8.0\Microsoft.Bcl.Memory.dll
 D:\CodeDotnetAPI\WebApplication1\WebApplication1\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
 D:\CodeDotnetAPI\WebApplication1\WebApplication1\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+D:\CodeDotnetAPI\WebApplication1\WebApplication1\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Binder.dll
+D:\CodeDotnetAPI\WebApplication1\WebApplication1\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+D:\CodeDotnetAPI\WebApplication1\WebApplication1\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\CodeDotnetAPI\WebApplication1\WebApplication1\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\CodeDotnetAPI\WebApplication1\WebApplication1\bin\Debug\net8.0\Serilog.dll
+D:\CodeDotnetAPI\WebApplication1\WebApplication1\bin\Debug\net8.0\Serilog.AspNetCore.dll
+D:\CodeDotnetAPI\WebApplication1\WebApplication1\bin\Debug\net8.0\Serilog.Extensions.Hosting.dll
+D:\CodeDotnetAPI\WebApplication1\WebApplication1\bin\Debug\net8.0\Serilog.Extensions.Logging.dll
+D:\CodeDotnetAPI\WebApplication1\WebApplication1\bin\Debug\net8.0\Serilog.Formatting.Compact.dll
+D:\CodeDotnetAPI\WebApplication1\WebApplication1\bin\Debug\net8.0\Serilog.Settings.Configuration.dll
+D:\CodeDotnetAPI\WebApplication1\WebApplication1\bin\Debug\net8.0\Serilog.Sinks.Console.dll
+D:\CodeDotnetAPI\WebApplication1\WebApplication1\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
+D:\CodeDotnetAPI\WebApplication1\WebApplication1\bin\Debug\net8.0\Serilog.Sinks.File.dll
